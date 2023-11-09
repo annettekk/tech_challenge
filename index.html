@@ -7,16 +7,17 @@
     <title>Vite App</title>
   </head>
   <body>
-    <div id="app" class="bg-gray-200 text-center relative pt-16 pb-48">
-      <h1>Tech_ed</h1>
+    <div id="app" class="bg-gray-200 text-center relative pt-16 pb-48 xs:static xs:pt-0 xs:pb-0 xs:grid grid-cols-1 xs:gap-5">
+      <div><h1>Tech_ed</h1>
       <h2>
         One price for a full stack
       </h2>
       <h3>
         We offer the entire course, 101 - 301 for a simple affordable price.
       </h3>
-      <section class="flex bg-white shadow-lg mx-10 p-6 text-left absolute bottom-0 translate-y-1/2">
-      <div class="">
+    </div>
+  <section class="flex justify-between bg-white shadow-lg mx-10 p-6 text-left absolute bottom-0 translate-y-1/2 xs:static xs:translate-y-0 xs:mx-0 xs:block xs:justify-evenly">
+      <div class="mr-4 xs:mb-4">
       
         <h4>
           In Person or Online
@@ -26,7 +27,9 @@
       </p>
       <hr class="my-4">
       <h5 class="uppercase -mt-7">
-        <span class="bg-white pr-2 lg:bg-yellow-400">What's included</span>
+        <span class="bg-white pr-2 sm:bg-green-400 md:bg-blue-400 lg:bg-yellow-400 xl:bg-pink-400">
+          What's included
+        </span>
       </h5>
       <ul>
         <li>Instructor Led Tuition</li>
@@ -35,14 +38,13 @@
         <li>3-month post graduation mentorship</li>
       </ul>
     </div>
-    <div class="">
+    <div class="ml-4 xs:mt-4 xs:ml-0">
       <h6>Learn to code</h6>
       <p class="text-4xl font-bold flex items-center">5,500<span class="text-gray-500 text-sm font-normal ml-1">GBP</span></p>
       <button type="button">Book Now</button>
       <ul>
         <li>Payment Plans available</li>
         <li>Funding & Scholarships available</li>
-        
       </ul>
     </div>
   </section>
